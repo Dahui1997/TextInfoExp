@@ -56,7 +56,7 @@
   每一个元素是pair，包含key、value两部分。key是Integer或string类型，value 是任意类型。
   键是唯一的，字典只认最后一个赋的键值。
 
-###dictionary的方法
+### dictionary的方法
    D.get(key, 0)       #同dict[key]，多了个没有则返回缺省值，0。[]没有则抛异常
    
    D.has_key(key)      #有该键返回TRUE，否则FALSE
@@ -106,7 +106,7 @@
    "He" in str
    "she" not in str
 
-###string模块，还提供了很多方法，如
+### string模块，还提供了很多方法，如
   S.find(substring, [start [,end]]) #可指范围查找子串，返回索引值，否则返回-1
   
   S.rfind(substring,[start [,end]]) #反向查找
